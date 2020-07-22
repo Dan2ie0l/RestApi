@@ -1,0 +1,53 @@
+0. npm i vor node_modulsy het ga
+
+1.steghcecinq project 
+2. npm i express
+3. npm i body-parser
+4.
+//serveri hamar
+const express = require('express')
+//bodyin tesnelu hamar
+const bodyParser = require('body-parser')
+
+//serveri hnaravorutyunnery dreconq appi mej
+const app = express()
+
+//bolor routneri hamar ogtagorcum enq bodyParser
+app.use(bodyParser.json())
+
+5. steghcel routes folder
+posts.js
+auth.js
+
+6.grancvel https://www.mongodb.com/
+tumo-mail password Students1234!
+
+7.yntrel anvchar tarberaky
+
+8.yntrel cankacac mot erkir ev steghcel cluster
+
+9. gnal Database Access avelavnel nor user tumo tumo1234
+
+10. gnal Network Access miacnel bolor IP addressneri hamar
+
+11. npm i npm i mongoose
+
+12. miacnel mongoose linky gtnel mongobd kayqic ,,connect application bajnic,,ev teghadrel password ev db name
+
+13. steghcel model foldery
+
+14. steghcel post ev user schemanery
+
+15.ogtagorcel route folderi post ev auth routnerum
+
+16. tnayin-- grel 
+    /posts  
+    /posts/post/:id  
+    /posts/add
+
+    /auth/signin
+    /auth/signup
+stugel postmanov
+
+
+
