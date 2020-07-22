@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use('/posts', postRoute)
 app.use('/auth', authRoute)
 
-mongoose.connect('mongodb+srv://tumo:tumo1234@cluster0.1rka5.mongodb.net/tumohe?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://tumo:tumo1234@cluster0.1rka5.mongodb.net/tumo?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
@@ -21,5 +21,5 @@ mongoose.connect('mongodb+srv://tumo:tumo1234@cluster0.1rka5.mongodb.net/tumohe?
 
 const port = process.env.PORT || 3333
 app.listen(port, () => {
-    console.log(`I am is  running on ${3333} port`);
+    console.log(`I am running on ${3333} port`);
 })
