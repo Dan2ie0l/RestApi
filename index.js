@@ -3,11 +3,12 @@ const bodyParser = require('body-parser')
 const postRoute = require('./routes/posts')
 const authRoute = require('./routes/auth')
 const mongoose = require('mongoose');
+const cors = require('cors')
 
 const app = express()
 
 app.use(bodyParser.json())
-
+app.use(cors())
 app.use('/posts', postRoute)
 app.use('/auth', authRoute)
 
